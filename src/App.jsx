@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import {
   Mail,
   Phone,
@@ -1394,6 +1395,7 @@ const Portfolio = () => {
           &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
         </p>
       </footer>
+      <Analytics />
     </div>
   );
 };

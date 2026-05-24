@@ -232,7 +232,7 @@ const Portfolio = () => {
                       Father's Name
                     </p>
                     <p className="text-slate-700 font-medium">
-                      Mr. Khan Mohd Tarique
+                      Mr. Muhammad Tariq Khan
                     </p>
                   </div>
                   <div>
@@ -291,7 +291,7 @@ const Portfolio = () => {
                 <h4 className="text-md text-slate-600 font-medium mb-3">
                   Sherpa Space Inc. • Daejeon, Rep. of Korea
                 </h4>
-                <ul className="text-sm text-slate-600 space-y-2 list-disc pl-4 marker:text-slate-300">
+                <ul className="text-sm text-slate-600 space-y-2 list-disc pl-4 marker:text-slate-300" style={{ textAlign: 'justify' }}>
                   <li>
                     Developing IoT-based precision agriculture monitoring
                     systems utilizing environmental/soil sensors.
@@ -329,7 +329,7 @@ const Portfolio = () => {
                 <h4 className="text-md text-slate-600 font-medium mb-3">
                   Yeungnam University • Rep. of Korea
                 </h4>
-                <p className="text-sm text-slate-600">
+                <p className="text-sm text-slate-600" style={{ textAlign: 'justify' }}>
                   Department of Chemical Engineering. Led academic instruction
                   and advanced research initiatives bridging chemical process
                   design and data-driven optimization strategies.
@@ -354,7 +354,7 @@ const Portfolio = () => {
                 <h4 className="text-md text-slate-600 font-medium mb-3">
                   Yeungnam University • Rep. of Korea
                 </h4>
-                <p className="text-sm text-slate-600">
+                <p className="text-sm text-slate-600" style={{ textAlign: 'justify' }}>
                   Cleantech Institute & Dept of Chemical Engineering. Conducted
                   post-doctoral research focusing on advanced modeling, control
                   strategy development, and pilot-scale WWTP implementation.

@@ -176,7 +176,7 @@ const Portfolio = () => {
                 <div className="w-8 h-1 bg-blue-500 mr-4 rounded"></div>
                 About Me
               </h2>
-              <p className="text-lg text-slate-600 mb-4 leading-relaxed">
+              <p className="text-lg text-slate-600 mb-4 leading-relaxed" style={{ textAlign: 'justify' }}>
                 I am a PhD-qualified Chemical Engineer with an interdisciplinary
                 profile combining advanced process engineering expertise and
                 modern software and IoT systems development. I bring strong
@@ -184,13 +184,13 @@ const Portfolio = () => {
                 execution across industrial engineering and digital technology
                 domains.
               </p>
-              <p className="text-lg text-slate-600 mb-4 leading-relaxed">
+              <p className="text-lg text-slate-600 mb-4 leading-relaxed" style={{ textAlign: 'justify' }}>
                 My applied experience includes wastewater treatment design,
                 biological nitrogen removal (including Anammox systems), control
                 strategy development, simulation-based validation, and
                 industrial performance optimization.
               </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
+              <p className="text-lg text-slate-600 leading-relaxed" style={{ textAlign: 'justify' }}>
                 In parallel, I have developed solid expertise in software
                 engineering and digital infrastructure design. I am proficient
                 in Python for backend development; Node.js for API services;

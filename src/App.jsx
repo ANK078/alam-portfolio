@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import {
   Mail,
   Phone,
@@ -1394,6 +1395,7 @@ const Portfolio = () => {
           &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
         </p>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };

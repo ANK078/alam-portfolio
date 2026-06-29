@@ -263,8 +263,6 @@ const Portfolio = () => {
 <div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
             
     <script data-cfasync="false" src="https://pl30118837.effectivecpmnetwork.com/50/76/a0/5076a0e426c6c336e3af886ba708d9cd.js"></script>
-            
-<script data-cfasync="false" src="https://www.highperformanceformat.com/4ce554182ff3354340151dd57f6e60ca/invoke.js"></script>
 
           </div>
         </div>

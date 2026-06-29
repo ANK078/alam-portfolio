@@ -262,7 +262,7 @@ const Portfolio = () => {
             <script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
 <div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
             
-    <a href="https://www.effectivecpmnetwork.com/itu2wpp9yk?key=f5c4975da395127efa2d0c41344449ba"> ad click</a>
+    {/* <a href="https://www.effectivecpmnetwork.com/itu2wpp9yk?key=f5c4975da395127efa2d0c41344449ba"> ad click</a> */}
     <script data-cfasync="false" src="https://pl30118837.effectivecpmnetwork.com/50/76/a0/5076a0e426c6c336e3af886ba708d9cd.js"></script>
             <script>
   atOptions = {
@@ -273,7 +273,7 @@ const Portfolio = () => {
     'params' : {}
   };
 </script>
-<script src="https://www.highperformanceformat.com/4ce554182ff3354340151dd57f6e60ca/invoke.js"></script>
+<script data-cfasync="false" src="https://www.highperformanceformat.com/4ce554182ff3354340151dd57f6e60ca/invoke.js"></script>
 
           </div>
         </div>

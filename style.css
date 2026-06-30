@@ -95,15 +95,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-/* for ad  */
-.mobileShow {display: none;}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { 
-  .mobileShow {display: inline;}
-}
-.mobileHide { display: inline; }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .mobileHide { display: none;}
-}

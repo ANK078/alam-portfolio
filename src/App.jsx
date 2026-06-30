@@ -279,12 +279,12 @@ const Portfolio = () => {
      .mobileHide { display: none;}
   }
 </style>
-
-<div class="mobileShow"> <script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
+<script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
+<div class="mobileShow"> 
 <div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
  </div>
-
-<div class="mobileHide"> <script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
+            
+<div class="mobileHide"> 
 <div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
  </div>
           </div>

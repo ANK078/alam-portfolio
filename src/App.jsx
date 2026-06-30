@@ -262,10 +262,10 @@ const Portfolio = () => {
 
           </div>
         </div>
+      </section>
             {/*Ad run  */}
             
       <AdsterraBanner />
-      </section>
 
       {/* Experience Section */}
       <section

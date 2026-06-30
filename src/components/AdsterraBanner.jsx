@@ -5,10 +5,10 @@ export default function AdsterraBanner() {
     const script1 = document.createElement("script");
     script1.innerHTML = `
       atOptions = {
-        'key' : '4ce554182ff3354340151dd57f6e60ca',
+        'key' : 'd50df7a90a0620c3884064aa97616a48',
         'format' : 'iframe',
-        'height' : 60,
-        'width' : 800,
+        'height' : 100,
+        'width' : 40,
         'params' : {}
       };
     `;
@@ -16,7 +16,7 @@ export default function AdsterraBanner() {
 
     const script2 = document.createElement("script");
     script2.src =
-      "https://www.highperformanceformat.com/4ce554182ff3354340151dd57f6e60ca/invoke.js";
+      "https://www.highperformanceformat.com/d50df7a90a0620c3884064aa97616a48/invoke.js";
     script2.async = true;
 
     document.getElementById("adsterra-container").appendChild(script1);

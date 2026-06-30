@@ -5,7 +5,7 @@ export default function AdsterraBanner() {
     const script1 = document.createElement("script");
     script1.innerHTML = `
       atOptions = {
-        'key' : 'd50df7a90a0620c3884064aa97616a48',
+        'key' : '00115fe18ae78feaaacf521d4d8b5ab8',
         'format' : 'iframe',
         'height' : 100,
         'width' : 50,
@@ -16,7 +16,7 @@ export default function AdsterraBanner() {
 
     const script2 = document.createElement("script");
     script2.src =
-      "https://www.highperformanceformat.com/d50df7a90a0620c3884064aa97616a48/invoke.js";
+      "https://www.highperformanceformat.com/00115fe18ae78feaaacf521d4d8b5ab8/invoke.js";
     script2.async = true;
 
     document.getElementById("adsterra-container").appendChild(script1);

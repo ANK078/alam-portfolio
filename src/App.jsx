@@ -259,7 +259,7 @@ const Portfolio = () => {
               </div>
             </div>
             {/*Ad run  */}
-            <script src="https://pl30118837.effectivecpmnetwork.com/50/76/a0/5076a0e426c6c336e3af886ba708d9cd.js"></script>
+            <script data-cfasync="false" type='text/javascript' src="https://pl30118837.effectivecpmnetwork.com/50/76/a0/5076a0e426c6c336e3af886ba708d9cd.js"></script>
 
           </div>
         </div>

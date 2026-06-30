@@ -261,9 +261,32 @@ const Portfolio = () => {
             {/*Ad run  */}
             <script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
 <div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
-            
-    <script data-cfasync="false" src="https://pl30118837.effectivecpmnetwork.com/50/76/a0/5076a0e426c6c336e3af886ba708d9cd.js"></script>
+<style type="text/css">
+  .mobileShow {display: none;}
 
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+  .mobileHide { display: inline; }
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  }
+</style>
+
+<div class="mobileShow"> <script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
+<div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
+ </div>
+
+<div class="mobileHide"> <script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
+<div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
+ </div>
           </div>
         </div>
       </section>

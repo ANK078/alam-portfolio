@@ -170,6 +170,9 @@ const Portfolio = () => {
 
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
+            {/*Ad run  */}
+            
+      <AdsterraBanner />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:flex gap-12">
             <div className="lg:w-2/3">
@@ -263,9 +266,6 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-            {/*Ad run  */}
-            
-      <AdsterraBanner />
 
       {/* Experience Section */}
       <section

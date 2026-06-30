@@ -21,7 +21,7 @@ import {
   FileText,
 } from 'lucide-react';
 // for add
-import './style.css';
+import '../style.css';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

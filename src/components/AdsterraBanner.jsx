@@ -7,8 +7,8 @@ export default function AdsterraBanner() {
       atOptions = {
         'key' : '4ce554182ff3354340151dd57f6e60ca',
         'format' : 'iframe',
-        'height' : 60,
-        'width' : 100,
+        'height' : 100,
+        'width' : 50,
         'params' : {}
       };
     `;

@@ -20,6 +20,7 @@ import {
   Users,
   FileText,
 } from 'lucide-react';
+import AdsterraBanner from "./components/AdsterraBanner";
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -260,6 +261,8 @@ const Portfolio = () => {
             </div>
             {/*Ad run  */}
             <script data-cfasync="false" type='text/javascript' src="https://pl30118837.effectivecpmnetwork.com/50/76/a0/5076a0e426c6c336e3af886ba708d9cd.js"></script>
+            
+      <AdsterraBanner />
 
           </div>
         </div>

@@ -20,6 +20,8 @@ import {
   Users,
   FileText,
 } from 'lucide-react';
+// for add
+import './ad-styles.css';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -259,34 +261,15 @@ const Portfolio = () => {
               </div>
             </div>
             {/*Ad run  */}
-            <script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
-<div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
-<style type="text/css">
-  .mobileShow {display: none;}
-
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
-  }
-  .mobileHide { display: inline; }
-
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){
-     .mobileHide { display: none;}
-  }
-</style>
-<script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
-<div class="mobileShow"> 
-<div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
- </div>
             
-<div class="mobileHide"> 
-<div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
- </div>
+<script async="async" data-cfasync="false" src="https://pl30118839.effectivecpmnetwork.com/18fc8321731d066ce927836ccd9c77fb/invoke.js"></script>
+<div className="mobileShow"> 
+  <div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
+</div>
+
+<div className="mobileHide"> 
+  <div id="container-18fc8321731d066ce927836ccd9c77fb"></div>
+</div>
           </div>
         </div>
       </section>

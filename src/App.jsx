@@ -158,7 +158,7 @@ const Portfolio = () => {
             <div className="md:w-1/3 flex justify-center md:justify-end shrink-0">
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full p-2 bg-white/10 backdrop-blur-sm shadow-2xl">
                 <img
-                  src="/profile.jpg"
+                  src="/profile.png"
                   alt="Dr. Alam Nawaz"
                   className="w-full h-full object-cover rounded-full border-4 border-white shadow-inner"
                 />

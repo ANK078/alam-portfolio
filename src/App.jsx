@@ -274,7 +274,7 @@ const Portfolio = () => {
                     <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
                       Socially Active
                     </p>
-                    <p className="text-slate-700 font-medium flex items-center">
+                    <p className="text-slate-700 font-medium flex items-center gap-4">
                       <a
                         href="https://linkedin.com/in/ankcom"
                         target="_blank"

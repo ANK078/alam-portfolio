@@ -203,7 +203,7 @@ const Portfolio = () => {
 
             {/* Personal Details */}
             <div className="mt-10 lg:mt-0 lg:w-1/3">
-              <div className="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm h-full">
+              <div className="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
                 <div className="bg-slate-100 px-6 py-4 border-b border-slate-200">
                   <h3 className="text-lg font-bold text-slate-800 flex items-center">
                     <User className="w-5 h-5 mr-2 text-blue-500" />

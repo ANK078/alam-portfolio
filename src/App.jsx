@@ -275,8 +275,23 @@ const Portfolio = () => {
                       Socially Active
                     </p>
                     <p className="text-slate-700 font-medium flex items-center">
-                      💼 LinkedIn: linkedin.com/in/ankcom
-                      🐙 GitHub: github.com/ANK078
+                      <a
+                        href="https://linkedin.com/in/ankcom"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        LinkedIn
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
+                      
+                      <a
+                        href="https://github.com/ANK078"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Git Hub
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
                     </p>
                   </div>
                 </div>

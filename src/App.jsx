@@ -216,7 +216,7 @@ const Portfolio = () => {
                       Visa Status
                     </p>
                     <p className="text-slate-700 font-medium flex items-center">
-                      <Book className="w-4 h-4 mr-2 text-slate-400" /> F2
+                      F2
                     </p>
                   </div>
                   <div>
@@ -275,7 +275,6 @@ const Portfolio = () => {
                       Socially Active
                     </p>
                     <p className="text-slate-700 font-medium flex items-center">
-                      <Social className="w-4 h-4 mr-2 text-slate-400" /> 
                       💼 LinkedIn: linkedin.com/in/ankcom
                       🐙 GitHub: github.com/ANK078
                     </p>

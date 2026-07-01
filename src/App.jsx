@@ -213,8 +213,13 @@ const Portfolio = () => {
                 <div className="p-6 space-y-4">
                   <div>
                     <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
-                      Visa Status - F2
+                      Visa Status
                     </p>
+                    <p className="text-slate-700 font-medium flex items-center">
+                      <Book className="w-4 h-4 mr-2 text-slate-400" /> F2
+                    </p>
+                  </div>
+                  <div>
                     <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
                       Date of Birth
                     </p>
@@ -263,6 +268,16 @@ const Portfolio = () => {
                       Fatehgarh, Farrukhabad, 
                       <br />
                       209601 U.P. INDIA
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
+                      Socially Active
+                    </p>
+                    <p className="text-slate-700 font-medium flex items-center">
+                      <Social className="w-4 h-4 mr-2 text-slate-400" /> 
+                      💼 LinkedIn: linkedin.com/in/ankcom
+                      🐙 GitHub: github.com/ANK078
                     </p>
                   </div>
                 </div>

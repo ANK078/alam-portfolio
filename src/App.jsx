@@ -213,6 +213,9 @@ const Portfolio = () => {
                 <div className="p-6 space-y-4">
                   <div>
                     <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
+                      Visa Status - F2
+                    </p>
+                    <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
                       Date of Birth
                     </p>
                     <p className="text-slate-700 font-medium flex items-center">
@@ -241,9 +244,13 @@ const Portfolio = () => {
                       Temporary Address (Korea)
                     </p>
                     <p className="text-slate-600 text-sm">
-                      8, Nongdae-ro 8beon-gil (Eoeun-dong 104-3)
+                      8, Nongdae-ro 8beon-gil
                       <br />
-                      Yuseong-gu, Daejeon, Rep. of Korea 34139
+                      Yuseong-gu, Daejeon, 
+                      <br />
+                      Rep. of Korea 34139
+                      <br />
+                      대전광역시 유성구 농대로8번길 8
                     </p>
                   </div>
                   <div>
@@ -251,9 +258,11 @@ const Portfolio = () => {
                       Permanent Address (India)
                     </p>
                     <p className="text-slate-600 text-sm">
-                      H. No. 1/102, Gadi Khana Jalil Marg,
+                      Gadi Khana Jalil Marg,
                       <br />
-                      Fatehgarh, Farrukhabad, 209601 U.P. INDIA
+                      Fatehgarh, Farrukhabad, 
+                      <br />
+                      209601 U.P. INDIA
                     </p>
                   </div>
                 </div>

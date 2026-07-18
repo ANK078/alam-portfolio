@@ -1320,7 +1320,7 @@ const Portfolio = () => {
               </p>
               <div className="text-sm text-slate-600 space-y-1">
                 <p>Yeungnam University, Rep. of Korea</p>
-                <p>
+                {/* <p>
                   Email:{' '}
                   <a
                     href="mailto:mynlee@ynu.ac.kr"
@@ -1329,7 +1329,8 @@ const Portfolio = () => {
                     mynlee@ynu.ac.kr
                   </a>
                 </p>
-                <p>Mobile: +82-10-3527-8419</p>
+                <p>Mobile: +82-10-3527-8419</p> */}
+                <p className="text-blue-600 italic mt-2 text-xs">Contact details available upon request.</p>
               </div>
             </div>
 
@@ -1342,7 +1343,7 @@ const Portfolio = () => {
               </p>
               <div className="text-sm text-slate-600 space-y-1">
                 <p>Daejeon, Rep. of Korea</p>
-                <p>
+                {/* <p>
                   Email:{' '}
                   <a
                     href="mailto:cmunyun@sherpaspace.co.kr"
@@ -1351,20 +1352,21 @@ const Portfolio = () => {
                     cmunyun@sherpaspace.co.kr
                   </a>
                 </p>
-                <p>Mobile: +82-10-5041-9660</p>
+                <p>Mobile: +82-10-5041-9660</p> */}
+                <p className="text-blue-600 italic mt-2 text-xs">Contact details available upon request.</p>
               </div>
             </div>
 
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
               <h3 className="font-bold text-lg text-slate-900">
-                Dr. Mohammad Faisal
+                Dr. Muhammad Faisal
               </h3>
               <p className="text-sm font-medium text-slate-500 mb-4">
                 Professor & HOD, Dept of Computer Science
               </p>
               <div className="text-sm text-slate-600 space-y-1">
                 <p>Integral University, Lucknow, U.P. India</p>
-                <p>
+                {/* <p>
                   Email:{' '}
                   <a
                     href="mailto:headca@iul.ac.in"
@@ -1373,7 +1375,8 @@ const Portfolio = () => {
                     headca@iul.ac.in
                   </a>
                 </p>
-                <p>Mobile: +91-99-8417-1083</p>
+                <p>Mobile: +91-99-8417-1083</p> */}
+                <p className="text-blue-600 italic mt-2 text-xs">Contact details available upon request.</p>
               </div>
             </div>
 
@@ -1386,7 +1389,7 @@ const Portfolio = () => {
               </p>
               <div className="text-sm text-slate-600 space-y-1">
                 <p>Sandip University, Nashik, M.P. India</p>
-                <p>
+                {/* <p>
                   Email:{' '}
                   <a
                     href="mailto:muqeem.79@gmail.com"
@@ -1395,7 +1398,8 @@ const Portfolio = () => {
                     muqeem.79@gmail.com
                   </a>
                 </p>
-                <p>Mobile: +91-94-5002-2699</p>
+                <p>Mobile: +91-94-5002-2699</p> */}
+                <p className="text-blue-600 italic mt-2 text-xs">Contact details available upon request.</p>
               </div>
             </div>
           </div>

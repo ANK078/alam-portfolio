@@ -19,6 +19,9 @@ import {
   Award,
   Users,
   FileText,
+  Facebook,
+  Instagram,
+  Youtube,
 } from 'lucide-react';
 import AdsterraBanner from "./components/AdsterraBanner";
 
@@ -45,6 +48,16 @@ const Portfolio = () => {
     'References',
     'Contact',
   ];
+  
+  const TikTokIcon = ({ className }) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className={className}
+  >
+    <path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.31 1.38V7.3s-1.88.09-3.24-1.48z" />
+  </svg>
+);
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-blue-200">
@@ -151,6 +164,24 @@ const Portfolio = () => {
                   Google Scholar
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
+                <a
+                  href="https://linkedin.com/in/ankcom"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-medium rounded-lg backdrop-blur-sm border border-white/20 transition-colors flex items-center"
+                >
+                  LinkedIn
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+                <a
+                  href="https://github.com/ANK078"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-medium rounded-lg backdrop-blur-sm border border-white/20 transition-colors flex items-center"
+                >
+                  Git Hub
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
               </div>
             </div>
 
@@ -241,7 +272,7 @@ const Portfolio = () => {
                       Father's Name
                     </p>
                     <p className="text-slate-700 font-medium">
-                      Mr. Muhammad Tariq Khan
+                      Mr. Khan Muhammad Tariq
                     </p>
                   </div>
                   <div>
@@ -270,7 +301,7 @@ const Portfolio = () => {
                       209601 U.P. INDIA
                     </p>
                   </div>
-                  <div>
+                  {/* <div>
                     <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
                       Socially Active
                     </p>
@@ -293,7 +324,7 @@ const Portfolio = () => {
                         <ExternalLink className="ml-2 h-4 w-4" />
                       </a>
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -1430,11 +1461,55 @@ const Portfolio = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-950 py-8 text-center border-t border-slate-800">
+      {/* <footer className="bg-slate-950 py-8 text-center border-t border-slate-800">
         <p className="text-slate-500 text-sm">
           &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
         </p>
-      </footer>
+      </footer> */}
+      {/* Footer */}
+<footer className="bg-slate-950 py-10 text-center border-t border-slate-800">
+  <div className="flex justify-center gap-6 mb-6">
+    
+      href="https://facebook.com/ANKfbpage"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Facebook"
+      className="text-slate-400 hover:text-blue-400 transition-colors"
+    >
+      <Facebook className="w-5 h-5" />
+    </a>
+    
+      href="https://instagram.com/khan_al_sh"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Instagram"
+      className="text-slate-400 hover:text-pink-400 transition-colors"
+    >
+      <Instagram className="w-5 h-5" />
+    </a>
+    
+      href="https://tiktok.com/@khan_al_sh"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="TikTok"
+      className="text-slate-400 hover:text-slate-100 transition-colors"
+    >
+      <TikTokIcon className="w-5 h-5" />
+    </a>
+    
+      href="https://youtube.com/@YOUR_HANDLE"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="YouTube"
+      className="text-slate-400 hover:text-red-400 transition-colors"
+    >
+      <Youtube className="w-5 h-5" />
+    </a>
+  </div>
+  <p className="text-slate-500 text-sm">
+    &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
+  </p>
+</footer>
     </div>
   );
 };

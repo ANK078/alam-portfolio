@@ -1497,7 +1497,7 @@ const Portfolio = () => {
       <TikTokIcon className="w-5 h-5" />
     </a>
     
-      href="https://youtube.com/@YOUR_HANDLE"
+      href="https://youtube.com/c/ANKcom"
       target="_blank"
       rel="noreferrer"
       aria-label="YouTube"

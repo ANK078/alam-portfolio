@@ -1510,7 +1510,6 @@ const Portfolio = () => {
     &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
   </p>
 </footer>
-    </div>
   );
 };
 

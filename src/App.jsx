@@ -1470,7 +1470,7 @@ const Portfolio = () => {
 <footer className="bg-slate-950 py-10 text-center border-t border-slate-800">
   <div className="flex justify-center gap-6 mb-6">
     
-      href="https://facebook.com/ANKfbpage"
+    <a href="https://facebook.com/ANKfbpage"
       target="_blank"
       rel="noreferrer"
       aria-label="Facebook"
@@ -1479,7 +1479,7 @@ const Portfolio = () => {
       <Facebook className="w-5 h-5" />
     </a>
     
-      href="https://instagram.com/khan_al_sh"
+    <a href="https://instagram.com/khan_al_sh"
       target="_blank"
       rel="noreferrer"
       aria-label="Instagram"
@@ -1488,7 +1488,7 @@ const Portfolio = () => {
       <Instagram className="w-5 h-5" />
     </a>
     
-      href="https://tiktok.com/@khan_al_sh"
+    <a href="https://tiktok.com/@khan_al_sh"
       target="_blank"
       rel="noreferrer"
       aria-label="TikTok"
@@ -1497,7 +1497,7 @@ const Portfolio = () => {
       <TikTokIcon className="w-5 h-5" />
     </a>
     
-      href="https://youtube.com/c/ANKcom"
+    <a href="https://youtube.com/c/ANKcom"
       target="_blank"
       rel="noreferrer"
       aria-label="YouTube"
@@ -1510,6 +1510,7 @@ const Portfolio = () => {
     &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
   </p>
 </footer>
+        </div>
   );
 };
 

@@ -447,7 +447,7 @@ const Portfolio = () => {
                   <div>
                     <div className="flex justify-between items-center">
                       <h4 className="text-sm font-bold text-slate-800">
-                        Lecturer - Computer Science
+                        Assistant Professor - Computer Science
                       </h4>
                       <span className="text-xs text-slate-500">
                         Jan 2020 - Aug 2021

@@ -24,6 +24,7 @@ import {
   Youtube,
 } from 'lucide-react';
 import AdsterraBanner from "./components/AdsterraBanner";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -1514,6 +1515,7 @@ const Portfolio = () => {
     &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
   </p>
 </footer>
+        <SpeedInsights />
         </div>
   );
 };

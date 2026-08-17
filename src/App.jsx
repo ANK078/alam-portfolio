@@ -23,6 +23,7 @@ import {
   Instagram,
   Youtube,
 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import AdsterraBanner from "./components/AdsterraBanner";
 
 const Portfolio = () => {
@@ -1514,6 +1515,7 @@ const Portfolio = () => {
     &copy; {new Date().getFullYear()} Dr. Alam Nawaz. All rights reserved.
   </p>
 </footer>
+      <SpeedInsights />
         </div>
   );
 };
